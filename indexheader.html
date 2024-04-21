@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style1.css">
+    <title>Menu</title>
+</head>
+<body>
+    <div id="header">
+        <div class="header__top">
+            <div class="header__top__item">
+                <a href="#">Về trường iuh</a>
+                <span>|</span>
+                <a href="#">Học cùng iuh </a>
+                <span>|</span>
+                <a href="#">Hướng dẫn nhâp học</a>
+                <span>|</span>
+                <a href="#">Blog</a>
+            </div>
+            <div class="header__top__item">
+                <a href="#">Đăng ký/Đăng nhập</a>
+                <a href="#" style="margin-left: 16px;">
+                    <img src="./assets/svg/fb.svg" alt="">
+                </a>
+                <span>|</span>
+                <a href="#">
+                    <img src="./assets/svg/thread.svg" alt="">
+                </a>
+                <span>|</span>
+                <a href="#">
+                    <img src="./assets/svg/insta.svg" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="header__top" style="background-color: transparent;">
+            <div class="header__search__logo">
+                <img src="c:\Users\Lenovo\Desktop\logo-iuh-1.png" alt="">
+            </div>
+            <div class="header__search__item">  
+                <div class="dropdown">
+                    <button class="dropbtn">Trang chủ
+                     
+                    <img src="./assets/svg/down.svg" alt="">  </button>
+                    <div class="dropdown-content">
+                        <a href="#">Giới thiệu chung</a>
+                        <a href="#">Triết lý giáo dục</a>
+                        <a href="#">Mục tiêu-phương châm</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                <a href="#">
+                    ĐÀO TẠO
+                    <img src="./assets/svg/down.svg" alt="">
+
+                    
+                </a>
+
+            </div>
+                
+                <a href="#">DỊCH VỤ
+                    
+                    <img src="./assets/svg/down.svg" alt="">
+                </a>
+                <a href="#">
+                  TUYỂN SINH
+                </a>
+                <a href="#">BLOG </a>
+                <a href="#">LIÊN HỆ</a>
+                
+            </div>
+        </div>
+        <div class="header__search">
+            <p>Hotline: 045454554544545</p>
+            <div class="header__search__container">
+                <input type="text" placeholder="Tìm kiếm...">
+                <div class="btn__search">
+                    <img src="./assets/svg/search1.svg" alt="">
+                </div>
+            </div>
+            <div class="header__search__listIcon">
+                <a href="#">
+                    <img src="./assets/svg/person.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="./assets/svg/heart.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="./assets/svg/reload.svg" alt="">
+                </a>
+                <a href="#" class="quantity">
+                    <img src="./assets/svg/bag.svg" alt="">
+                    <div class="has__quantity">2</div>
+                </a>
+
+                
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".dropdown").hover(function(){
+                $(this).find(".dropdown-content").toggle();
+            });
+        });
+    </script>
+</body>
+</html>
